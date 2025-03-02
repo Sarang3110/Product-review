@@ -31,7 +31,26 @@ d:- We have added one button in Gridview As Give review such that if we  want to
 
 a:- For giving Product Review we have  created seperate page Review.aspx.
 b:- We have created one form with review text and rating.
-c:- On submit click the review get submiited and we get message with pop up of successsfull review submission and when we click on that successful revie
+c:- On submit click the review get submiited and we get message with pop up of successsfull review submission and when we click on that successful review pop up ok button the pop up get closed and automatically
+    another pop up get shown with message based on sentiment and on ok button click of that pop up it get redirect to orders page
+
+
+d:- If Sentiment is positive then it gives positive message to use else alpology message.(It depends on what review the user give about product)
+
+e:- If sentiment is positve we have call one function and fetch user based on userId  and in that fucntion we can make email code to send positive repsly regarding product to user and also 
+     we give loyalty reward to that user by updating the Loyalty points of the user
+
+f:- If sentiiment is negative then again one fucntion is called and we can send that aplogy message to user via mail to user.
+
+g:- We have put postive and aplogy message in code to check wether that sentiment funcntion as been called or not based on positve to negative reveiws or neutral.So when it is psotive some text get showed with pop up with postive reply else apology message like this.
+
+
+So far this is the Functionality I have ceheck it out,If any doubts will clear in Code Explanation Round.
+
+
+
+
+
 
 
 
