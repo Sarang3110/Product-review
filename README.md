@@ -20,13 +20,18 @@ c:- Add one button that is Place order and when click on that it redirect to ord
 
 a:- We have created seperate Order.aspx page as when page get loaded the place order form get opened to place order.
 
-b:- In Place order we seleeect product and quanity of hwo much you want and then click on submit if stock is avaible then order get placed and if stock not available then it give error messsage as stock is not there.
+b:- In Place order we seleeect product and quanity of hwo much you want and then click on submit if stock is avaible then order get placed and if stock not available then it give error messsage as stock is not there.When Order get place successfully the stock get reduced from prodict table and product details get updated.
 
 c:- Also when get order get placed the order details get shown in gridview table.
 
 
 d:- We have added one button in Gridview As Give review such that if we  want to give review of particular order then on click on that button it get redirect to Reveiw.aspx Page and you can give review.
 
-3:- 
+3:- Product Reviews:-
+
+a:- For giving Product Review we have  created seperate page Review.aspx.
+b:- We have created one form with review text and rating.
+c:- On submit click the review get submiited and we get message with pop up of successsfull review submission and when we click on that successful revie
+
 
 
